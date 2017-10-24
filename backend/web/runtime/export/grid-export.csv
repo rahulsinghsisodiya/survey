@@ -1,0 +1,4 @@
+"Product Name","Product Code","Development Phase","Page No.","Part Number","Factory Acknowledgement Status","Expected Date","Product Category","Sent Customer","Product Group","Comments","Description","Sales Unit","Status","Bar Code","Stock Unit","Purchase Unit","Weight","Weight Unit","Dimenstion (L * B * H)","Dimenstion Unit",""
+"product1","RTDFGHGHJ123","A","","fgdfg","Yes","0000-00-00","product category 1,Product Category 2,xcvx,sdfasasas,neww,","No","Product Group 1,product Group 10,zxcxzc,","testt","details","","Blocked","","","","500","20","20 * 10 * 10 * ","30",""
+"product2","RTDFGHGHJ123","","","","Yes","0000-00-00","Product Category 2,product category 1,xcvx,sdfasasas,neww,","Yes","Product Group 1,product Group 10,zxcxzc,","testt","details","","Blocked","","500","","","0","0 * 0 * 0 * ","0",""
+"new product","ABUT123","","","234324","Yes","0000-00-00","neww,","Yes","zxcxzc,","sdfsdfsdf","df","500","Blocked","6555","500","500","","0","0 * 0 * 0 * ","0",""

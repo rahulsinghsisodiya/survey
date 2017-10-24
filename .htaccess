@@ -1,0 +1,32 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+# deal with admin first
+RewriteCond %{REQUEST_URI} survey/(admin)
+RewriteRule ^admin/assets/(.*)$ backend/web/assets/$1 [L]
+RewriteRule ^admin/css/(.*)$ backend/web/css/$1 [L]
+RewriteRule ^admin/js/(.*)$ backend/web/js/$1 [L]
+RewriteRule ^admin/plugins/(.*)$ backend/web/plugins/$1 [L]
+RewriteRule ^admin/images/(.*)$ backend/web/images/$1 [L]
+RewriteRule ^admin/fonts/(.*)$ backend/web/fonts/$1 [L]
+RewriteRule ^admin/importcsv/(.*)$ backend/web/importcsv/$1 [L]
+RewriteRule ^admin/uploads/(.*)$ backend/web/uploads/$1 [L]
+
+RewriteCond %{REQUEST_URI} !survey/backend/web/(assets|images|css|js|plugins|importcsv|uploads)/
+RewriteCond %{REQUEST_URI} survey/(admin)
+RewriteRule ^.*$ backend/web/index.php [L]
+
+RewriteCond %{REQUEST_URI} survey/(assets|img|css|js|plugins|fonts)
+RewriteRule ^assets/(.*)$ frontend/web/assets/$1 [L]
+RewriteRule ^assets/(.*)$ frontend/web/assets/$1 [L]
+RewriteRule ^css/(.*)$ frontend/web/css/$1 [L]
+RewriteRule ^js/(.*)$ frontend/web/js/$1 [L]
+RewriteRule ^img/(.*)$ frontend/web/img/$1 [L]
+RewriteRule ^video/(.*)$ frontend/web/video/$1 [L]
+RewriteRule ^fonts/(.*)$ frontend/web/fonts/$1 [L]
+
+RewriteCond %{REQUEST_URI} !survey/(frontend|backend)/web/(assets|images|fonts|video|css|js|plugins|importcsv|uploads)/
+RewriteCond %{REQUEST_URI} !index.php
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ backend/web/index.php

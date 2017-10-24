@@ -1,0 +1,52 @@
+.table_show {
+  padding-top: 10px;
+}
+.action-menu > li {
+  display: inline;
+}
+.group-assign-list {
+  background-color: #f4f4f4;
+  border: 0 solid;
+  margin-bottom: 20px;
+  margin-right: -17px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: #C2C2C2;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+.group-assign-list ul {
+  padding: 0px;
+  margin: 0px;
+}
+.group-assign-list > span {
+  margin-left: 10px;
+}
+.group-assign-list li {
+  display: inline;
+  list-style: outside none none;
+}
+.customer-text {
+  margin-left: 7px;
+  margin-top: 3px !important;
+  position: absolute;
+  color: #434343;
+  display:inline-block;
+    width:150px;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+.campaign-index {
+  min-height: 450px;
+}
+.right-paging-container {
+  padding-right: 21px;
+  text-align: right;
+}
+.pagination {
+  margin: 0;
+}
+.content-footer{margin-bottom: 40px;}

@@ -1,0 +1,270 @@
+.icheck-box label{
+    padding-left : 0px !important ;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+.login-imgcaptcha{
+	/*padding-left: 5px;
+	padding-right: 5px;*/
+}
+.login-imgcaptcha img{
+    width: 100% !important;
+}
+.forget-password a{
+	color: #000 !important;
+	font-weight: 600;
+}
+.pointer {
+	cursor: pointer;
+}
+.refresh-captcha{
+	margin-left: 25%;
+    margin-top: 25%;
+}
+#loginform-captcha-image{
+	height: 34px;
+	margin-left: 5px;
+}
+.display-none{
+	display: none;
+}
+.form-heading{
+	padding:2px 0px 19px 16px;
+}
+.mandatory-fields label::after{
+	content:" * ";
+	color: red;
+}
+.labels {
+  text-align: left;
+}
+.red{color: red}
+.forms {
+  padding-bottom: 20px;
+  padding-top: 21px;
+  min-height: 500px;
+}
+.forms > div > form > .form-group {
+  margin-bottom: 0 !important;
+}
+.select2-container--krajee .select2-selection {
+  border-radius: 0px !important;
+  }
+.select2-container .select2-selection--single .select2-selection__rendered {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.logo-lg img{
+	width: 75%;
+}
+.header-control{
+	display: inline-block !important;
+}
+input.header-control{
+	min-width: 125px;
+	width: 20% !important;
+	vertical-align: middle;
+}
+select.header-control{
+	margin: 0 2px;
+	width: 70px !important;
+}
+.action-menu{
+  margin-top:0px;
+  padding: 0;
+}
+.action-menu li{
+  padding: 0 5px;
+}
+.action-menu label{
+  font-weight: 400 !important
+}
+.action-menu .show-records{
+  margin-left: 4px;
+}.action-menu_button{
+	margin-top:20px;
+	padding: 0;
+}
+.action-menu_button li{
+	padding: 0 5px;
+}
+.action-menu_button label{
+	font-weight: 400 !important
+}
+.action-menu_button .show-records{
+	margin-left: 4px;
+}
+div.right-menu-container{
+	padding-right: 4px;
+	text-align: right
+}
+div.summary{
+	margin-left: 8px;
+	margin-top: 6px;
+}
+.action-link{
+	color: #3e3e33
+}
+.calender-inputicon{
+	width: 165px !important;
+}
+.footer{
+	bottom: 0;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+}
+.footer .container{
+ 	background: #ffffff none repeat scroll 0 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.restore{margin-right: 10px;}
+.show{display: block !important;}
+.btn-info{width: auto}
+
+fieldset {
+   border: 1px solid #D3D6DF;
+    padding: 15px;
+}
+
+fieldset legend {
+    color: #808080;
+    margin-left: 20px;
+     padding: 0.2em 0.5em;
+     border: 0 none;
+    font-size: 12px;
+    padding-top: 24px;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.legend2 {
+  background-color: #fff;
+    border: 1px solid #fff;
+    color: red;
+    margin-left: 70%;
+    opacity: 0.9;
+    padding: 0 0px;
+    position: absolute;
+    text-align: right;
+    cursor: pointer;
+    margin-top: -3px;
+    padding: 0px 10px;
+}
+#add_more_supplier,#add_more_competitor {
+  margin-left: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.bottom_padding{
+	margin-bottom: 15px;
+}
+
+.help-block{
+	display: inline;
+}
+.product_form{margin-top: 30px;}
+.delete_price,.remove_price {
+  border: 1px solid;
+  height: 34px;
+  padding-left: 12px;
+  padding-top: 6px;
+  text-align: center;
+  width: 38px;
+  border-color: #d2d6de;
+    border-radius: 0;
+    box-shadow: none;
+    color: #B4B4B4;
+    font-weight: bold;
+    cursor: pointer;
+}
+#add_more_kit {
+  margin-left: 15px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+}
+video {
+  border: 1px solid;
+  height: 183px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.product_images{padding-bottom: 20px;}
+.product_images > img {
+  border: 1px solid #d2d6de;
+  height: 138px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 150px;
+}
+.upload_text {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+#add_more_currency {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.submit_button{padding-bottom: 15px;}
+.select2-selection.select2-selection--single {
+  height: 34px !important;
+}
+.login_icon{color: #000 !important}
+.login-logo, .register-logo {
+    font-size: 31px;
+    font-weight: 300;
+    margin-bottom: 11px;
+    text-align: center;
+}
+.login-logo > img {
+  margin-bottom: 25px;
+  width: 50%;
+}
+.login_button,.login_button:hover{
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+.refresh-captcha{color: #000;}
+.login_bg{}
+
+#passwordresetrequestform-captcha-image{height: 34px;
+    margin-left: 5px;}
+ .row.forget {
+  padding-top: 52px;
+}
+.forget-password {
+  padding-top: 7px;
+}
+.skin-blue .main-header .logo,.skin-blue .main-header .logo:hover {
+  background-color: #fff;
+  text-align: left;
+}
+.logo-lg > img {
+  margin-left: 29px;
+padding-top: 7px;
+width: 122px;
+}
+.user-body > div {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: #f4f4f4;
+}
+.user-body button {
+  border: 0 solid;
+}
+.historical_link{
+    text-decoration: underline;
+    
+}
+.dropdown.user.user-menu {
+  padding-top: 6px;
+}
